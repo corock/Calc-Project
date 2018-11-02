@@ -24,7 +24,7 @@ public class CalcController extends HttpServlet {
 		
 		switch (operator) {
 		case "+":
-			// TODO: result = Integer.parseInt(oper1) + Integer.parseInt(oper2);
+			result = Integer.parseInt(oper1) + Integer.parseInt(oper2);
 			break;
 		case "-":
 			// TODO: result = Integer.parseInt(oper1) - Integer.parseInt(oper2);
